@@ -1,0 +1,1352 @@
+@charset "UTF-8";
+header {
+  position: fixed;
+  width: 100%;
+  height: 51px;
+  background-color: #212121;
+  z-index: 10; }
+  header .hamburger {
+    display: none; }
+
+.list {
+  list-style: none;
+  margin-bottom: 0px;
+  height: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .list_item {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff; }
+  .list li {
+    padding: 0px; }
+  .list li:nth-child(n+1):nth-child(-n+5) {
+    border-right: 1px dotted gray;
+    padding: 0px;
+    padding-right: 41px; }
+
+.TopSection {
+  padding-top: 51px;
+  min-height: 748px;
+  background: url("/images/TopSector/TopPicture.jpg") center center/cover no-repeat; }
+  .TopSection .Call {
+    background-color: rgba(1, 1, 1, 0.6);
+    height: 84px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .TopSection .Call .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .TopSection .Call .Uber777 {
+      font-family: Roboto; }
+      .TopSection .Call .Uber777 .Top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.075em;
+        color: #ffffff; }
+      .TopSection .Call .Uber777 .Bot {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 100;
+        color: #ffffff; }
+    .TopSection .Call .Number .Top {
+      text-align: right;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 300;
+      color: #ffffff; }
+    .TopSection .Call .Number .Bot {
+      text-align: right;
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .TopSection .Call .Knopka button {
+      width: 178px;
+      height: 52px;
+      background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+      background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+      border: none;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.11);
+              box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.11);
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff;
+      -webkit-transition: 0.5s all;
+      transition: 0.5s all; }
+      .TopSection .Call .Knopka button:hover {
+        -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+                transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#1faeca), to(#39a3b7));
+        background-image: linear-gradient(0deg, #1faeca 0%, #39a3b7 100%); }
+  .TopSection .TopText .Text h1 {
+    margin-top: 65px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .TopSection .TopText .Text h2 {
+    margin-top: 8px;
+    text-align: center;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff; }
+  .TopSection .TopText .Text .txt {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff; }
+  .TopSection .TopText .Text button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 265px;
+    height: 69px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.11);
+            box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.11);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; }
+    .TopSection .TopText .Text button:hover {
+      -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+              transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+      background-image: -webkit-gradient(linear, left bottom, left top, from(#1faeca), to(#39a3b7));
+      background-image: linear-gradient(0deg, #1faeca 0%, #39a3b7 100%); }
+
+.EightReasons .BlackBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 79px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  font-family: Roboto;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ffffff; }
+.EightReasons .header {
+  font-family: Roboto;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222; }
+.EightReasons .item {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .EightReasons .item .pict {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px; }
+  .EightReasons .item .txt {
+    text-align: justify;
+    display: inline-block; }
+    .EightReasons .item .txt .top {
+      font-family: Roboto;
+      font-size: 17px;
+      line-height: 21px;
+      font-weight: 400;
+      color: #1eacc7; }
+    .EightReasons .item .txt .bot {
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      color: #202020; }
+
+.AppInfo {
+  min-height: 864px;
+  margin-top: 60px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: url("/images/ThirdSector/BackGroundSquares.jpg") center center/cover no-repeat; }
+  .AppInfo .BlackBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-family: Roboto;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .AppInfo .header {
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222; }
+  .AppInfo p {
+    text-align: center;
+    margin-top: 18px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 12px; }
+  .AppInfo .item_1 {
+    background: url("/images/ThirdSector/Rectangle1.jpg") center center/cover no-repeat;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative; }
+    .AppInfo .item_1 .text {
+      text-align: center;
+      padding-top: 90px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .AppInfo .item_1 .plus {
+      width: 26px;
+      height: 26px;
+      background-color: black;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 65px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .AppInfo .item_1 .plus:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_1 .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_1 .plus:hover {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+                transform: translateX(-50%) rotate(360deg); }
+  .AppInfo .item_2 {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    background: url("/images/ThirdSector/Rectangle2.jpg") center center/cover no-repeat; }
+    .AppInfo .item_2 .text {
+      text-align: center;
+      padding-top: 90px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .AppInfo .item_2 .plus {
+      width: 26px;
+      height: 26px;
+      background-color: black;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 65px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .AppInfo .item_2 .plus:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_2 .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_2 .plus:hover {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+                transform: translateX(-50%) rotate(360deg); }
+  .AppInfo .item_3 {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    background: url("/images/ThirdSector/Rectangle3.jpg") center center/cover no-repeat; }
+    .AppInfo .item_3 .text {
+      text-align: center;
+      padding-top: 90px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .AppInfo .item_3 .plus {
+      width: 26px;
+      height: 26px;
+      background-color: black;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 65px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .AppInfo .item_3 .plus:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_3 .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_3 .plus:hover {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+                transform: translateX(-50%) rotate(360deg); }
+  .AppInfo .item_4 {
+    background: url("/images/ThirdSector/Rectangle4.jpg") center center/cover no-repeat;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative; }
+    .AppInfo .item_4 .text {
+      text-align: center;
+      padding-top: 90px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .AppInfo .item_4 .plus {
+      width: 26px;
+      height: 26px;
+      background-color: black;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 65px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .AppInfo .item_4 .plus:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_4 .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_4 .plus:hover {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+                transform: translateX(-50%) rotate(360deg); }
+  .AppInfo .item_5 {
+    background: url("/images/ThirdSector/Rectangle5.jpg") center center/cover no-repeat;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative; }
+    .AppInfo .item_5 .text {
+      text-align: center;
+      padding-top: 90px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .AppInfo .item_5 .plus {
+      width: 26px;
+      height: 26px;
+      background-color: black;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 65px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .AppInfo .item_5 .plus:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_5 .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_5 .plus:hover {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+                transform: translateX(-50%) rotate(360deg); }
+  .AppInfo .item_6 {
+    background: url("/images/ThirdSector/Rectangle6.jpg") center center/cover no-repeat;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative; }
+    .AppInfo .item_6 .text {
+      text-align: center;
+      padding-top: 90px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .AppInfo .item_6 .plus {
+      width: 26px;
+      height: 26px;
+      background-color: black;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 65px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .AppInfo .item_6 .plus:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_6 .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        background-color: #1ca8c3;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .AppInfo .item_6 .plus:hover {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+                transform: translateX(-50%) rotate(360deg); }
+
+.CarSection {
+  min-height: 896px; }
+  .CarSection .DarkBlock {
+    padding-top: 64px;
+    min-height: 500px;
+    background: url("/images/CarsSector/CarsRectangle.jpg") center center/cover no-repeat; }
+    .CarSection .DarkBlock .HeaderLightBlock {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0 auto;
+      width: 112px;
+      height: 24px;
+      background-color: #ffffff;
+      font-family: Roboto;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #070716; }
+    .CarSection .DarkBlock .header {
+      font-family: Roboto;
+      font-size: 38px;
+      line-height: 38px;
+      text-align: center;
+      margin-top: 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .CarSection .DarkBlock p {
+      font-family: Roboto;
+      font-size: 17px;
+      text-align: center;
+      line-height: 17px;
+      margin-top: 19px;
+      font-weight: 400;
+      color: #ffffff; }
+    .CarSection .DarkBlock .CarPict {
+      position: absolute;
+      background: url("/images/CarsSector/layers.png") center center/cover no-repeat;
+      width: 759px;
+      height: 484px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      margin-top: 20px; }
+  .CarSection .LightBlock {
+    min-height: 396px;
+    background: url("/images/CarsSector/CarsBottomRectangle.jpg") center center/cover no-repeat; }
+    .CarSection .LightBlock .text {
+      padding-top: 217px;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #222222; }
+
+.Uslovia {
+  min-height: 919px;
+  padding-top: 68px; }
+  .Uslovia .BlackBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-family: Roboto;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .Uslovia .header {
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #222222; }
+  .Uslovia .Top {
+    padding-right: 80px;
+    margin-top: 33px; }
+    .Uslovia .Top img {
+      margin-left: 20px;
+      margin-right: 8px; }
+    .Uslovia .Top .header {
+      font-family: Roboto;
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #1ca8c3;
+      text-align: left;
+      margin-bottom: 13px;
+      margin-top: 0px; }
+    .Uslovia .Top .Item {
+      font-family: Roboto;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 17px;
+      color: #222222;
+      margin-bottom: 14px;
+      margin-left: 51px;
+      position: relative; }
+      .Uslovia .Top .Item:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 21px;
+        height: 20px;
+        background: url("../images/FourthSector/Galka.png") center center/cover no-repeat;
+        left: -30px; }
+    .Uslovia .Top .footer {
+      color: #1ca8c3;
+      font-family: Roboto;
+      font-size: 17px;
+      font-weight: 300; }
+  .Uslovia .Bot {
+    padding-right: 80px;
+    margin-top: 62px; }
+    .Uslovia .Bot img {
+      margin-left: 20px;
+      margin-right: 8px; }
+    .Uslovia .Bot .header {
+      font-family: Roboto;
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #ff5656;
+      text-align: left;
+      margin-bottom: 13px;
+      margin-top: 0px; }
+    .Uslovia .Bot .Item {
+      font-family: Roboto;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 17px;
+      color: #222222;
+      margin-bottom: 14px;
+      position: relative;
+      margin-left: 51px; }
+      .Uslovia .Bot .Item:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 21px;
+        height: 20px;
+        background: url("../images/FourthSector/RedGalka.png") center center/cover no-repeat;
+        left: -30px; }
+
+.Map {
+  height: 717px;
+  background: url("/images/FifthSector/WorldMap.jpg") center center/cover no-repeat;
+  padding-top: 50px; }
+  .Map .header {
+    width: 76px;
+    height: 24px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Roboto;
+    font-size: 11px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #070716; }
+  .Map .header_textone {
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .Map .header_texttwo {
+    margin-top: 20px;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #ffffff; }
+  .Map a {
+    display: block;
+    margin-top: 486px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1fbad6; }
+
+footer {
+  position: relative;
+  height: 156px; }
+  footer .BlueLine {
+    width: 299px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background-color: #1fbad6; }
+  footer .TopLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 32px; }
+    footer .TopLinks .Link a {
+      font-family: Roboto;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #070716;
+      text-decoration: none; }
+  footer .BotLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    footer .BotLinks .Link a {
+      font-family: Roboto;
+      font-size: 11px;
+      line-height: 11px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: #999999;
+      text-decoration: none; }
+  footer .russian {
+    margin-top: 19px; }
+    footer .russian a {
+      display: block;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 11px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #1fbad6;
+      text-decoration: none; }
+  footer .blackblock {
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px; }
+  footer .icons {
+    width: 155px;
+    height: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: 23px;
+    bottom: 73px; }
+    footer .icons .icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 100%;
+      background-color: black;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  footer .Google {
+    position: absolute;
+    right: 23px;
+    bottom: 73px; }
+
+.Hidden {
+  display: none; }
+
+@media (max-width: 1200px) {
+  .list_item {
+    font-size: 12px; }
+  .list li {
+    padding: 0px; }
+  .list li:nth-child(n+1):nth-child(-n+5) {
+    border-right: 1px dotted gray;
+    padding: 0px;
+    padding-right: 41px; }
+
+  .TopSection .TopText .Text h1 {
+    font-size: 45px;
+    line-height: 45px; }
+  .TopSection .TopText .Text h2 {
+    font-size: 30px;
+    line-height: 36px; }
+  .TopSection .TopText .Text .txt {
+    font-size: 16px; }
+
+  .AppInfo .item_1, .AppInfo .item_2, .AppInfo .item_3, .AppInfo .item_4, .AppInfo .item_5, .AppInfo .item_6 {
+    width: 280px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .AppInfo .item_1 .text, .AppInfo .item_2 .text, .AppInfo .item_3 .text, .AppInfo .item_4 .text, .AppInfo .item_5 .text, .AppInfo .item_6 .text {
+      font-size: 20px; } }
+@media (max-width: 991px) {
+  .list_item {
+    font-size: 12px; }
+  .list li {
+    padding: 0px; }
+  .list li:nth-child(n+1):nth-child(-n+5) {
+    border-right: 1px dotted gray;
+    padding: 0px;
+    padding-right: 13px; }
+
+  .TopSection .Call .Uber777 .Top {
+    font-size: 19px; }
+  .TopSection .Call .Uber777 img {
+    width: 25px; }
+  .TopSection .Call .Uber777 .Bot {
+    font-size: 12px; }
+  .TopSection .Call .Number .Bot {
+    font-size: 21px; }
+  .TopSection .Call .Knopka {
+    height: 45px; }
+    .TopSection .Call .Knopka button {
+      width: 100%;
+      height: 100%; }
+  .TopSection .TopText .Text h1 {
+    font-size: 41px;
+    line-height: 45px; }
+  .TopSection .TopText .Text h2 {
+    font-size: 29px;
+    line-height: 36px; }
+  .TopSection .TopText .Text .txt {
+    font-size: 16px; }
+
+  .EightReasons .item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end; }
+
+  .AppInfo .item div {
+    width: 210px; }
+    .AppInfo .item div div {
+      width: 100%; } }
+@media (max-width: 768px) {
+  .list {
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 85%;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; }
+    .list_active {
+      left: 0; }
+    .list li {
+      margin: 10px 0px; }
+    .list_item {
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      color: #ffffff; }
+    .list li:nth-child(n+1):nth-child(-n+5) {
+      border: none; }
+
+  header {
+    height: 30px; }
+    header .hamburger {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      width: 26px;
+      height: 12px; }
+      header .hamburger_active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        header .hamburger_active span:nth-child(1) {
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          display: block;
+          position: absolute;
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+        header .hamburger_active span:nth-child(3) {
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          display: block;
+          position: absolute;
+          -webkit-transform: rotate(-45deg);
+                  transform: rotate(-45deg); }
+        header .hamburger_active span:nth-child(2) {
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          display: block;
+          position: absolute;
+          -webkit-transform: rotate(-45deg);
+                  transform: rotate(-45deg); }
+      header .hamburger span {
+        -webkit-transition: 0.5s all;
+        transition: 0.5s all;
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 2px; }
+
+  .TopSection {
+    padding-top: 30px;
+    min-height: 400px; }
+    .TopSection .Call .Uber777 .Top {
+      font-size: 12px; }
+    .TopSection .Call .Uber777 .Bot {
+      display: none; }
+    .TopSection .Call .Number {
+      display: none; }
+    .TopSection .Call .Knopka {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .TopSection .Call .Knopka:before {
+        content: "8 495 797 09 88";
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 100px;
+        height: 15px;
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 68px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 10px; }
+      .TopSection .Call .Knopka button {
+        font-size: 10px;
+        width: 116px;
+        height: 28px; }
+    .TopSection .TopText .Text h1 {
+      margin-top: 53px;
+      font-family: Roboto;
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .TopSection .TopText .Text h2 {
+      margin-top: 30px; }
+    .TopSection .TopText .Text .txt {
+      display: none; }
+    .TopSection .TopText .Text button {
+      margin: 0px;
+      margin: 0 auto;
+      margin-top: 69px;
+      margin-bottom: 32px; }
+
+  .EightReasons {
+    padding-top: 22px; }
+    .EightReasons .BlackBlock {
+      margin: 0px;
+      margin: 0 auto;
+      width: 112px;
+      height: 24px;
+      background-color: #000000; }
+    .EightReasons .header {
+      margin-top: 15px;
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #222222; }
+    .EightReasons .item .pict {
+      margin-bottom: 25px; }
+
+  .AppInfo {
+    padding-top: 22px; }
+    .AppInfo .header {
+      margin-top: 15px;
+      font-family: Roboto;
+      font-size: 21px;
+      line-height: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #222222; }
+    .AppInfo p {
+      margin-top: 11px; }
+    .AppInfo .item div {
+      width: 280px; }
+      .AppInfo .item div div {
+        width: 100%; }
+
+  .CarSection {
+    min-height: 390px; }
+    .CarSection .DarkBlock {
+      padding-top: 25px;
+      min-height: 390px;
+      position: relative; }
+      .CarSection .DarkBlock .header {
+        display: none; }
+      .CarSection .DarkBlock p {
+        display: none; }
+      .CarSection .DarkBlock .CarPict {
+        margin-top: 40px;
+        width: 300px;
+        height: 190px; }
+      .CarSection .DarkBlock:after {
+        content: "Машины на каждый день. Лучше, быстрее и дешевле, чем такси";
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        position: absolute;
+        bottom: 33px;
+        padding: 0 20px; }
+    .CarSection .LightBlock {
+      display: none; }
+
+  .Uslovia {
+    padding-top: 25px; }
+    .Uslovia .header {
+      margin-top: 15px;
+      font-size: 20px;
+      line-height: 22px; }
+    .Uslovia .Top {
+      margin-top: 22px; }
+      .Uslovia .Top .header {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #1ca8c3; }
+      .Uslovia .Top .Item {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #222222;
+        margin-left: 30px;
+        margin-bottom: 10px; }
+      .Uslovia .Top .footer {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300; }
+    .Uslovia .Bot {
+      margin-top: 30px; }
+      .Uslovia .Bot .header {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #ff5656; }
+      .Uslovia .Bot .Item {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #222222;
+        margin-left: 30px;
+        margin-bottom: 10px; }
+
+  .Map {
+    background: url("/images/FifthSector/WorldMap.jpg") center/cover no-repeat;
+    height: 380px;
+    padding-top: 25px; }
+    .Map .header_textone {
+      margin-top: 15px;
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .Map .header_texttwo {
+      margin-top: 10px;
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .Map a {
+      margin-top: 216px; }
+
+  footer {
+    min-height: 245px; }
+    footer .BlueLine {
+      width: 250px;
+      height: 4px; }
+    footer .TopLinks {
+      margin-top: -10px;
+      margin-bottom: -20px; }
+      footer .TopLinks .Link a {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 68px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #070716; }
+    footer .UnHidden {
+      display: none; }
+    footer .Hidden {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      footer .Hidden a {
+        font-family: Roboto;
+        font-size: 11px;
+        line-height: 11px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #999999;
+        text-decoration: none; }
+      footer .Hidden .HiddentTopLinks {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+      footer .Hidden .HiddenBotLinks {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    footer .icons {
+      left: 0;
+      bottom: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 20px; }
+    footer .blackblock {
+      display: none; }
+    footer .Google {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      position: relative;
+      margin-top: 20px;
+      left: 0;
+      bottom: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
